@@ -2,7 +2,7 @@ name: Sync repo to Codeberg
 on: [push]
 jobs:
   codeberg-sync:
-    uses: osfanbuff63/action-workflows/.github/workflows/git-repo-sync.yml
+    uses: osfanbuff63/action-workflows/.github/workflows/git-repo-sync.yml@v1
     with:
       target_url: https://codeberg.org/osfanbuff63/rss-news
     secrets:
